@@ -1,5 +1,5 @@
 # stippling
-A collection of data-driven art pieces.
+A collection of data-driven digital artwork.
 
 <b>Project I: Dialog</b>
 

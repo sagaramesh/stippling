@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sequencer : MonoBehaviour {
+public class DialogSequencer : MonoBehaviour {
 
     Ray ray;
     RaycastHit hit;
@@ -79,7 +79,7 @@ public class Sequencer : MonoBehaviour {
 
     private Vector3 zeroScale = new Vector3(0f, 0f, 0f);
     private Vector3 fullScale = new Vector3(1f, 1f, 1f);
-    private Color32 faded = new Color32(255, 255, 255, 120);
+    private Color32 faded = new Color32(255, 255, 255, 255);
 
     // Tracked variables:
 
@@ -154,7 +154,7 @@ public class Sequencer : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        StartCoroutine(OpeningFade(0.0f, 2.0f));
+        StartCoroutine(OpeningFade(0.0f, 1.0f));
         s1Next.GetComponent<SpriteRenderer>().material.color = selectedColor;
         s2Next.GetComponent<SpriteRenderer>().material.color = selectedColor;
 

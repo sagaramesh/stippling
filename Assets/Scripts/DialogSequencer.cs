@@ -374,6 +374,7 @@ public class DialogSequencer : MonoBehaviour {
                     LogData.NewTrialResult(userColor);
                     LogData.NewTrialResult(userShape);
                     LogData.NewTrialResult(selectedRating.ToString());
+                    LogData.NewTrialResult(goodData.ToString());
                     complete = true;
                 }
 
